@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Banner</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f0f0f;
+        }
+
+        .banner {
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #ff0000, #990000);
+        }
+
+        .banner-content h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .banner-content p {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .banner-content a {
+            text-decoration: none;
+            background-color: white;
+            color: #ff0000;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .banner-content a:hover {
+            background-color: #ffdada;
+        }
+
+        @media (max-width: 600px) {
+            .banner {
+                height: 250px;
+            }
+            .banner-content h1 {
+                font-size: 28px;
+            }
+            .banner-content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>My YouTube Channel</h1>
+            <p>Gaming • Shorts • Live Streams</p>
+            <a href="https://youtube.com/@therowdyboyyt2?si=uIIenZQvREnSXKqF/" target="_blank">Subscribe</a>
+        </div>
+    </div>
+
+</body>
+</html>
